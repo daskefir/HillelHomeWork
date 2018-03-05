@@ -2,25 +2,42 @@
 <html>
 
 <head>
-<title> 
-    Apple Watch (almost)
-</title>
-<link rel="stylesheet" type="text/css" href="clock.css">
+    <title>
+        Apple Watch (almost)
+    </title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="clock.css">
 </head>
 
 <body>
-<div id = "main">
+
+    <div id="form">
+            <input type="button" id="button" value="Добавить задание" />
+<form id = "hidden">
+        <input type="input" id="inputTask" placeholder="Задание" /></br>
+        <input type="input" id="inputStartTime" placeholder="Время начала" /></br>
+        <input type="input" id="inputFinishTime" placeholder="Время завершения" />
+        <input type="button" id="submit" value="Сохранить" />
+        <input type="submit" id="clear" value="Очистить" />
+    </form>
+        <script>
+        </script>
+
+    </div>
+    <div id="main">
 
 
+    </div>
+
+    <div id="tasks">
 
 
+    </div>
 
 
-</div>
-
-
-
-        <script src="clock.js"> var time = "nonew";</script>
+    <script src="clock.js">
+        var time = "nonew";
+    </script>
 </body>
 
 </html>
